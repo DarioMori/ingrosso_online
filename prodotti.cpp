@@ -6,5 +6,7 @@
 #include "categorie.h"
 
 
-Prodotti::Prodotti(char nome, char desc, char n_c) : Categorie(n_c), nome(nome), desc(desc)  {
+Prodotti::Prodotti(char name, char desc, char n_c) : Categorie(n_c), nome(nome), desc(desc)  {
 }
+
+
