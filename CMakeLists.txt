@@ -3,4 +3,4 @@ project(ingrosso_online)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ingrosso_online main.cpp utenti.h clienti.h fornitori.h magazzino.h carrello.h prodotti.h categorie.h utenti.cpp clienti.cpp fornitori.cpp magazzino.cpp carrello.cpp prodotti.cpp categorie.cpp)
+add_executable(ingrosso_online main.cpp users.h clienti.h providers.h magazzino.h carrello.h products.h categorie.h users.cpp clienti.cpp providers.cpp magazzino.cpp carrello.cpp products.cpp categorie.cpp)
